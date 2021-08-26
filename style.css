@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.info{
+    background-color: rgb(73, 61, 61);
+    display: inline-block;
+    width: 18vw;
+    height: 100vh;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.dash{
+    background-color: rgb(73, 61, 61);
+    color: white;
+    padding-bottom: 30px;
+}
+
+.links-item a{
+    background-color: rgb(73, 61, 61);
+    text-decoration: none;
+    line-height:70px; 
+    font-size: 30px;
+    color: wheat;
+}
+ li{
+    background-color: rgb(73, 61, 61);
+    list-style-type: none;
+}
+.infos{
+    background-color: rgb(119, 108, 108);
+    padding: 10px 0 10px 200px;
+    position: absolute;
+    top: 0;
+    left: 18vw;
+    width: 82vw;
+    box-sizing: border-box;
+    }
+input{
+    padding: 0 20px 10px 60px;
+    border-radius: 30px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 7vh;
+    left: 18vw;
+    right: 0;
+    background-color: rgb(167, 160, 160);
+    box-sizing: border-box;
+}
+.card-item{
+    background-color:white;
+    width: 20vw;
+    height: 14vh;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 30px;
+    box-shadow: 5px 5px rgb(207, 203, 203);
+
+}
+.other{
+    background-color: rgb(207, 203, 203);
+    height: 65vh;
+    width: 82vw;
+    padding: 10vh;
+    position: absolute;
+    top:35vh;
+    left: 18vw;
+    box-sizing: border-box;
+   
+}
+th{
+    padding: 0 40px 20px 40px;
+    position: relative;
+    left: -40px;
+}
+table{
+    padding: 20px 0px;
+    margin: auto;
+    background-color: rgb(223, 219, 219); 
+    border-radius: 40px;        
+}
+tr{
+    margin: 60px;
+    position: relative;
+    left: 40px;
+    
+}
